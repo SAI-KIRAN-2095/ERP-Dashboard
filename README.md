@@ -2,31 +2,31 @@
 Project Setup & Run Instructions
 Frontend (React / Vite)
 
-cd frontend 
-
-npm install
-
-npm run dev
+      cd frontend 
+      
+      npm install
+      
+      npm run dev
 
 (Runs the frontend development server.)
 
 Backend (FastAPI)
 
-cd backend
-
-pip install -r requirements.txt
-
-python -m uvicorn app.main:app --reload
+      cd backend
+      
+      pip install -r requirements.txt
+      
+      python -m uvicorn app.main:app --reload
 
 Starts the FastAPI backend server with auto-reload.
 
 Widget Mock API (Node.js)
 
-cd widget-mock-api
-
-npm install
-
-nodemon index.js
+      cd widget-mock-api
+      
+      npm install
+      
+      nodemon index.js
 
 Default Ports
 Frontend → http://localhost:5173
